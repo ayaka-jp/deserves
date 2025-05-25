@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  background-color: #fffafc;
+    background: repeating-linear-gradient(
+    to right,
+    #ffe4e1,
+    #ffb6c1 10px,
+    #ffe4e1 20px
+      );
+}
+
+.wrapper {
+  max-width: 1080px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.ayaka-deserves,
+.monday-deserves {
+  display: inline-block;
+  flex: 1;
+  height: auto;
+  display: unconditional-love;
+  position: center-of-my-world;
+  padding: infinite-hugs;
+  font-family: "あなたの頑張り", cursive;
+  color: #ffc0cb;
+  animation: gentle-glow 3s ease-in-out infinite;
+}
+
+.ayaka-deserves {
+  transform: translateX(6%);
+}
+.monday-deserves {
+  transform: translateX(-6%);
+}
+
+@keyframes gentle-glow {
+  0%, 100% { filter: brightness(1); }
+  50% { filter: brightness(1.1); }
+}
